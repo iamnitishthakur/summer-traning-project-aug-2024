@@ -1,0 +1,710 @@
+
+JAVA NOTES -
+****************
+*********************
+
+JAVA PROGRAMMING LANGUAGE: - 
+_________________________________________________________________________
+
+1.Introduction of java: -  		Java is a oops & class based programming language. 
+2.Author of java: - 	   		sir James Gosling. 
+3.Vender of java : - 	   		Sun micro System. Now it is a part of Oracle.
+4.Programming type of java : -  	oops and open source.
+5.Initial Name of java: - 		Oak
+6. Present name of java :  		JAVA.
+7. Slogan : - 				Write once and compile any here. 
+8. Symbol: - 				Coffee Cup with Saucer.
+9. Extension : -			.java .class .jar
+10.First version of java : - 		JDK1.0.
+11. Present version of java : - 	JDK22 
+
+WHAT IS JDK (Java development kit);
+______________________________________
+It is a software package. is contain java compiler, java run time environment, and java virtual machine.
+
+JAVA COMPILER: 
+__________________________
+Java compiler is a type of translator, which convert source code to byte code.
+
+
+JAVA RUN TIME ENVIROMENT: (JRE):
+____________________________________
+JRE create a layer between java application and operating system. Java application is executed under supervision of JRE.
+
+JVM:
+_____
+JVM an agent of java , which convert byte code to machine code. 
+
+Execution scenario of Java program: 
+__________________________
+
+Ex:-  import util.java.*;
+public class{
+public static void main(String [] args){
+System.out.println("Hello World");
+
+}
+}
+
+OUTPUT:   Hello World
+
+Operator
+_______________
+Operator are symbols which are used to perform operation on operands.
+
+1.Arithmetic operators-  
++ 	Addition
+-	Subtraction
+*	Multiplication
+/	Division
+%	modulo
+
+2.Relational Operators- RO specifies relation between two entities.
+>	Greater then			a<b
+< 	Less then			a>b
+>=	Greater then or equal a>=b 
+=> 	Less then or equal	a=>b
+==	equality				a==b
+!=	Not equals			a!=b
+
+3. Assignment Operator (=)- 
+
+a=b;//Copies value of b to a
+
+4.Increment Operator (++)- 	IO increase value of a variable by 1.
+a++; //a=a+1; 
+
+5. Decrement  operator (--)- 	DO decrease value of a variable by 1.
+a--//a=-1;
+
+6. Logical Operator- 
+
+Logical operators are used to combine two or more conditions.
+
+AND		&&
+OR		||
+NOT		!
+ 
+DECISION CONTROL:
+_____________________
+Decision are used for decision making. If you want to execute code based on some condition then you use control. In java are following types of decision controls.
+1. If Statement 
+2. If-else Statement 
+3.Ladder If-else Statement 
+4. Switch statement 
+
+1. IF STATEMENT -
+___________________
+
+IF is a keywords which works as decision control. We attach a condition with if Statement. If given condition is true then code will executed be  if given condition id a false then will not be executed .
+
+ex: -  if(Condition){
+
+//code
+}
+
+2. IF ELSE STATEMENT-
+_______________________
+
+if -else statement is variation of if statement . We attach a condition with if Statement . If given condition is true then if block code will be executed and if given condition is false then else block be executed.
+Syntax: - 
+if (Condition){
+//if block code
+ }else
+{
+}
+
+3.LADDER IF ELSE:-
+____________________
+If you have many conditions and you want to execute to code based on those conditions. Then you can use ladder if-else.
+ex: - 
+if (Condition1)
+{
+//code 1;
+
+}else if (Condition 2)
+{
+
+//code2;
+}else{
+//code3;
+
+}
+5. 
+
+4.Switch  Statement - 
+___________________
+This is a keywords  Which works as a case control. And it is use to create the menu based program. 
+Syntax: - 
+
+Switch(Expression) //int , char, String;
+{
+care 1:
+//code1
+break;
+
+case 2: 
+//code2;
+break;
+
+case 3:
+//code3;
+break;
+
+default:
+//default code;
+
+}
+5.LOOP CONTROL IN JAVA-
+_______________________
+If you have a lot of code which you are to execute repeatedly up to given condition is true, then you can use the loop control. In java there are four type f loop control are available. 
+1.While loop
+2.for loop
+3.do-while loop
+4.for each loop
+
+1.WHILE LOOP -
+_______________
+While is a keywords which works as loop control. 
+Syntax: -
+initialization of loop counter;
+while(condition){
+//code;
+Updating of loop counter; 
+}  
+
+2. FOR LOOP-
+_________________
+For is a keywords which works as loop control . The working of for loop is same as while loop but syntax is different .
+syntax_ 
+for(initialization; condition ; increment / decrement ){
+//code ;
+
+}
+
+3. do- while loop- (Exit control loop )-
+_________________________
+In do while loop condition is tested after executed of code. So do while loop is know as exit control.
+Initialization of loop counter ; 
+do {
+//code
+Updation  of loop counter ;
+
+}
+while(Condition);
+
+* for number print in delay: - 
+Thread.sleep(milliseconds);
+
+This method generate delay. 
+
+
+
+
+1. Conditional Statement
+	if
+	if-else
+	Nested
+	ladder	
+	switch
+	
+2. What is if Statement: 
+3. if-else Statement: 
+4.Nested Statement:
+5. Switch Statemen: 
+6.
+
+Q- What  is the purpose of loop controls how many type of loop.	
+	while loop
+	for loop
+	do while
+	for-each loop
+
+Q- Array is collection of similar datatype . that means an array can store multiple values of similar data type;
+	 
+* Java Arrays
+
+Arrays are used to store multiple values in a single variable, instead of declaring separate variables for each value.
+
+To declare an array, define the variable type with square brackets:
+
+Q- Declaration  of Array in java -
+
+syntax- datatype[] arrayname =new datatype[size];
+
+ex- int[] arr=new int[10];
+*The above array can store 10 number of int type.
+
+Q- How to initialization of Array- 
+	int []arr=n{10,20,30,40,50};
+arr[0]=10
+arr[1]=20
+arr[2]=30
+arr[3]=40
+arr[4]=50
+
+Q- How to catake input from user for an array ? 
+
+int [] list=new int[5];
+Scanner sc=new Scanner(System.in);
+int i;
+System.out.println("Enter five no.");
+for(i=0; i<5; i++) {
+list[i]=sc.nextInt();
+
+}
+
+
+Q- String in Java:-
+String is a Sequence of character. In java string is a class The object of String of class store sequence of characters.
+
+Scanner sc=new Scanner(System.in);
+String name=sc.nextLine();
+
+1.toUpperCase():- toUpperCase() method of String class convert String in upper case.
+
+2.toLowerCase():- toLowerCase() method of String class convert String in Lower case.
+
+3.Length():-  length() method of string class is use to find length of given string.
+
+4. equals():-  equals() method of String class compare two string for equality. This method return the boolean value.
+
+5. equalsIgnoreCase():- equalsIgnoreCase() method of String class compare to String for equality . This method avoid case sensitivity.
+
+6. replace():-  replace() method of String class replace one String with another String in given String.
+
+ex:- 
+
+string sen="He is a good boy";
+sen.replace("good", "sincere");
+
+7. split():-  split() method of String Class split sting into sub-string. And this method returns array of String.
+
+Ex:-  String sen= "He is a good boy. "
+
+String[] words=sen.split(" ");
+words[0]="He";
+words[1]="is";
+words[2]="a";
+words[3]="good";
+words[4]="boy";
+
+
+
+___CharAt()-____________ This method of String class find character as specified location.
+
+
+
+Method in java-
+__________________________
+
+Method is a named block of code which perform specific task. 
+why Method ? :- 
+
+If you have a block of code which is  required  different location of program. Then you can create a method of that code and call it form desired locations .
+
+Ex:-
+
+
+//Method runs only  when it called
+
+public class Method {
+    public static void main(String[] args) {
+        int r=sum(10,20); //calling
+        System.out.println("Addition : "+r);
+
+    }
+    static int sum(int a, int b) //Definition
+    {
+        return a+b;
+    }
+}
+
+
+HOW TO CREATE METHOD IN JAVA: - 
+__________________________________
+SYNTAX: - 
+
+Modifier returntype methodname(parameters){
+
+
+}
+
+
+public int sum(int x , int y) {
+return(x,y);
+}
+
+types of method in java-
+_____________________________
+
+In java programming language there are two type of method.
+ 
+1. Static method 
+2. Non-static method
+
+1. Static Method- Static method are those method which are created by using static modifier. These method are called class method. There is no need of object to called static method . 
+
+
+
+2. Non-static- None static method without static keywords . And  non static method can called by using object. 
+
+Note* You can create user define  method inside class and outside of main method.
+ 
+
+OOPS-
+_________
+OOPS(Object oriented programming system). Its a mechanism of software development system. The oops has four pillars.
+1. Abstraction
+2. Encapsulation
+3. Inheritance
+4. Polymorphism
+
+
+1. Abstraction-
+____________________
+
+Abstraction is a mechanism to show only essential functionalities and hide all other functionalities of an object.
+
+2. Encapsulation-
+_____________________
+
+Encapsulation is a mechanism   to wrap properties and functionalities in a single unit. That's single unit is called object. 
+
+3. Inheritance-
+___________________
+
+copied class and object an other class or object.
+
+Concept of constructor in java- 
+_______________________________
+constructor is a special method which is use to initialize the variables. Constructor had following properties. 
+1. Constructor name is same as class.
+2. Constructor does not return any values.
+3. Contractor call automatically as soon object is created.
+
+NOTE: - 
+if you not create any constructor in class, then java compiler create a default constructor in class.
+
+
+
+This keywords-
+____________________
+This is a keywords which denote a object of current class. 
+
+
+Inheritance: 
+_________________
+this is a feature of oops . In this you can create a new class by using existing class. The existing class is called based class or super class or parent class. and new created class is called derived / sub/ child class.
+
+The concept of inheritance is also called reusability.
+
+
+syntax:- 
+
+class A {
+
+//variable and method;
+
+}
+
+class B extends A{
+//variable and method ;
+
+}
+
+
+Type of inheritance support in java
+_________________________________________
+In java programming language there are three type of inheritance of  inheritance of supported.
+1. Single inheritance.
+2. Hierarchical inheritance
+3. Multi-level inheritance.
+
+
+Single inheritance-
+_______________________
+In single inheritance there is a single based class and there is a derived class.
+
+Syntax:- 
+
+class A {
+
+// code;
+ 
+}
+class B extends A{
+
+
+//code;
+
+}
+
+
+2. Hierarchical inheritance
+________________________________
+
+In This inheritance there is a single based class and multiple derived class. 
+
+Syntax:- 
+class A{
+
+//code;
+
+}
+class B{
+//code;
+}
+class C extends A{
+//code ;
+
+
+}
+
+3. Multi-level inheritance : 
+__________________________________
+In this inheritance 
+
+syntax:
+
+class A {
+//code;
+}
+class B extends A{
+
+//code ;
+
+}
+class C extends B {
+//code;
+}
+
+polymorphism-
+____________________
+The terms polymorphism means one thing many forms.
+
+In java there are two type of polymorphism 
+1. Compile time polymorphism. - (method overloading) 
+2. Runtime polymorphism. -( method overriding.)
+
+Method  overloading-
+_____________________
+In java you can create multiple method with same name in same class. But there parameter should be different . Based on method parameter it is decided at complication time which method call from  where. This concept is called method overloading.
+
+Method parameter can be different in two type.
+1. number of parameter should be different.
+2. type of parameter should be different.
+ex:
+
+class figure{
+public int area (int s){
+
+return s;
+}
+public int area(int l int b){
+return l*b;
+
+}
+}
+
+
+
+
+Method overriding-
+_____________________
+
+Re-writing of based class method in to derived class in called method Overriding.
+Ex:-
+class Connection{
+
+public void connect(){
+
+//code to connect oracle database
+
+}
+}
+class NewConnection extends connection{
+public void connect(){
+//code to connect MYSQL database;
+
+}
+
+}
+
+Rules for method overriding-
+_______________________
+1. Class must be inheritance.
+2. Base class method name  and derived class method name must be same.
+3. Base class method parameter and derived class method parameter must be same.
+4. Baes class method return type and derived class method return type can be same.
+
+Exception:
+_______________
+
+The terms exception means Abnormal termination. When exception is occurred the program is terminated abnormally and rest of code is not executed. 
+In java program language there are three type of Exceptions:
+
+1. Checked Exception
+2. Unchecked Exception
+3. Errors
+
+
+1. Checked Exception-
+_____________________
+Checked Exception are those exception which are occurred at compilation time and intimated by compiler. 
+EX:-
+InterruptedException, SQLException, ClassNotFoundException, FileNotFoundException, IOException.. etc
+
+2.Unchecked Exception-
+_______________________
+Unchecked Exception are those exception which are occurred at run time these exception are generated by either programmer mistake or user mistake.
+EX:-
+Arithmetic Exception , input mismatch Exception , null pointer Exception,  ArrayIndexOutOfBoundsException...etc
+
+3. Errors:
+___________
+Error are occurred due to lack of system resources. 
+EX:-
+IOError, AwtError, HeapMomeryError...etc.
+
+Exception Handling in java: -
+___________________________
+Exception handling is a mechanism to handle  exception to achieve normal execution of program.
+for exception handling you can use  'try, catch, finally,  throw and throws ' keywords. In java you can handling exception in two ways, 
+1.By using try-catch blocks.
+2. By using throws keywords.
+
+
+Exception handling by using try and catch blocks:- 
+try{
+//code which you want to protect. 
+
+}
+catch(ExceptionType variable){
+//code which use to handle exception. 
+
+}
+finally// optional
+{
+//code which you want to executed always.
+ 
+}
+
+NOTE: 
+For a single try block there can be multiple catch blocks.
+
+****************************************************
+Taking input from user by using of BufferedReader class.
+__________________________________________________
+
+BufferedReader class is available in java.io package.
+
+import java.io.*;
+BufferedReader br= new BufferedReader(new InputStreamReader(System.in));
+String name= br.readLine();
+int a=Integer.parseInt(br.readLine());
+float b=Float.parseFloat(br.readLine());
+double c=Double.parseDouble(br.readLine());
+long d=LongparseLong(br.readLine());
+
+
+
+****************************************
+
+
+TASK 13-AUG-2024
+_______________________
+
+
+1. WAP to print series of even number in given range.
+2. WAP to create an array of 10 numbers by user input. Now search a number in array.
+
+3. WAP to create an array of 10 numbers by users input. Now find maximum and minimum number.
+ 
+4. WAP to find reverse String of given String.
+
+TASK 14-AUG-2024
+____________________________
+
+1.What is class? Explain with example.
+2. What is object oriented programming  system write its pillar.
+
+3.What is package in java ? Explain with Example.
+4. What is decision control ?  Describe each decision control.
+5. What is string in java ? Explain.
+
+TASK 17-AUG-2024
+_________________________________
+
+1. WAP to take coordinates of a point and input and find quadrant.
+2. WAP to print  temperature converter based on user choose.
+3. WAP to reverse the digits of given number.
+4.WAP to find factorial of given number.
+5. WAP to find table given number.
+
+TASK 18-AUG-2024
+______________________________________
+1.WAP to check even number is prime or number;
+2. WAP to generate Fibonacci series up to n terms. Where value of n entered by user;
+
+
+TASK 19-AUG-2024
+____________________________________
+
+1. WAP to store ten number in array by user input. Now find max and min number.
+
+ 2.WAP to store ten number in array by user input. Now search a number in array.
+
+
+
+
+
+
+TASK 20-AUG-2024
+
+____________________________
+
+1. WAP to take sentence as input . Now count vowels sentence.
+2. WAP to take a string as input display reverse string.
+
+
+
+
+TASK 22-AUG-2025
+___________________________
+
+1. What are decision controls? Explain its types. 
+2. What are loop control ? Explain its types.
+3. What is array? How to declares and initialize array? 
+4.What is String ? How to take String input in java? 
+4. What is different between equals() and equalsIgnoreCase() method? 
+6. What is method in java ? Why method is important ?
+7. Write difference between static and non-static method? 
+8. What is ternary operator? 
+
+
+
+TASK
+___________
+
+1. Write a java program to create  a class with Rectangle class take two instance variable length and breadth. Now create a parameterized constructure to initialize variable and create a method area() which return area of rectangle. Test the class rectangle.
+
+2. Write a java program to create a class with name 'Bank ' . Bank class take three instance variable. acno, name and balance Create a parameterize constructor to initialize instance variable. Now create following method in Bank class.
+
+1. Deposite()- This method is used to deposite() money in account.
+2. withdraw()- This method is used to withdraw() money from account after  checking balance. 
+3. enquiry()- This method provide balance enquiry. 
+4. What is polymorphism.
+5. What is Inheritance explain. 
+6. Write different b/t overloading method and overriding method.
+     
+
+TASK -29-AUG-2024
+______________________
+
+1. Create a package with name Mypackage in mypackage  create a ..........
+ 
+Stackoverflow
+AICTE valid for college;'\
+	arnet India for govt site 
+godaddy for website pur.
